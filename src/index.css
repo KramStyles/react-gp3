@@ -9,4 +9,6 @@
     --blog-color: #042c54;
     --text-color: #81AFDD;
     --subtext-color: #FF8A71;
+
+    --slow: .4s ease all;
 }

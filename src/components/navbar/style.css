@@ -1,0 +1,59 @@
+.gp_navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+    color: white;
+    font-family: poppins, sans-serif;
+}
+
+.gp_navbar_links_logo{
+    margin-right: 2rem;
+}
+
+.gp_navbar-links{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gp_navbar_links_logo img{
+    width: 67px;
+    height: 18px;
+}
+
+.gp_navbar-sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.gp_navbar-links a{
+    display: inline-block;
+    margin: 0 1rem;
+    font-size: 18px;
+    transition: var(--slow);
+}
+.gp_navbar-links a:hover{
+    color: #ff4820;
+}
+
+.gp_navbar-links button,
+.gp_navbar-menu-container button{
+    cursor: pointer;
+    padding: 1rem;
+    border:none;
+    color: #fff;
+    background-color: #ff4820;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+    transition: var(--slow);
+    border-radius: 8px;
+}
+
+.gp_navbar-links button:hover,
+.gp_navbar-menu-container button:hover{
+    color: #ff4820;
+    background-color: #ffffff;
+}
