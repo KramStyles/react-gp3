@@ -57,3 +57,18 @@
     color: #ff4820;
     background-color: #ffffff;
 }
+.gp_navbar-mobile-menubar{
+    min-width: 400px;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: #040E2B;
+}
+.gp_navbar-mobile-menubar .gp_navbar-links-container a {
+    display: block;
+    padding: 10px 15px;
+    margin: 0;
+}
+.gp_navbar-mobile-menubar .gp_navbar-links-container a:hover {
+    background-color: #fff;
+}
