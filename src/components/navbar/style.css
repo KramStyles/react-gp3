@@ -64,11 +64,23 @@
     top: 100%;
     background: #040E2B;
 }
-.gp_navbar-mobile-menubar .gp_navbar-links-container a {
+.gp_navbar-mobile-menubar a {
     display: block;
     padding: 10px 15px;
     margin: 0;
 }
-.gp_navbar-mobile-menubar .gp_navbar-links-container a:hover {
+.gp_navbar-mobile-menubar a:hover {
     background-color: #fff;
+}
+.gp_navbar-menu{
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+    .gp_navbar-links-container{
+        display: none;
+    }
+    .gp_navbar-menu{
+    display: block;
+}
 }
