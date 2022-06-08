@@ -19,6 +19,10 @@ const Header = () => {
           <p>1600 people requested access in the last 24 hours ...</p>
         </div>
       </div>
+
+      <div className="gp_header-image">
+          <img src={ai} alt="AI Image" />
+        </div>
     </div>
   )
 };
