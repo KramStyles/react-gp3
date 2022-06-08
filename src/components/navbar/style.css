@@ -1,4 +1,4 @@
-.gp_navbar{
+.gp_navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,42 +7,44 @@
     font-family: poppins, sans-serif;
 }
 
-.gp_navbar_links_logo{
+.gp_navbar_links_logo {
     margin-right: 2rem;
 }
 
-.gp_navbar-links{
+.gp_navbar-links {
     display: flex;
     flex: 1;
     justify-content: space-around;
     align-items: center;
 }
 
-.gp_navbar_links_logo img{
+.gp_navbar_links_logo img {
     width: 67px;
     height: 18px;
 }
 
-.gp_navbar-sign{
+.gp_navbar-sign {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-.gp_navbar-links a{
+
+.gp_navbar-links a {
     display: inline-block;
     margin: 0 1rem;
     font-size: 18px;
     transition: var(--slow);
 }
-.gp_navbar-links a:hover{
+
+.gp_navbar-links a:hover {
     color: #ff4820;
 }
 
 .gp_navbar-links button,
-.gp_navbar-menu-container button{
+.gp_navbar-menu-container button {
     cursor: pointer;
     padding: 1rem;
-    border:none;
+    border: none;
     color: #fff;
     background-color: #ff4820;
     font-size: 18px;
@@ -53,34 +55,57 @@
 }
 
 .gp_navbar-links button:hover,
-.gp_navbar-menu-container button:hover{
+.gp_navbar-menu-container button:hover {
     color: #ff4820;
     background-color: #ffffff;
 }
-.gp_navbar-mobile-menubar{
+
+.gp_navbar-mobile-menubar {
     min-width: 400px;
     position: absolute;
     right: 0;
     top: 100%;
     background: #040E2B;
 }
+
 .gp_navbar-mobile-menubar a {
     display: block;
     padding: 10px 15px;
     margin: 0;
 }
+
 .gp_navbar-mobile-menubar a:hover {
     background-color: #fff;
 }
-.gp_navbar-menu{
+
+.gp_navbar-menu, .gp_navbar-sign-small {
     display: none;
 }
 
-@media screen and (max-width: 800px){
-    .gp_navbar-links-container{
+@media screen and (max-width: 800px) {
+    .gp_navbar-links-container {
         display: none;
     }
-    .gp_navbar-menu{
-    display: block;
+
+    .gp_navbar-links {
+        justify-content: space-between;
+    }
+
+    .gp_navbar-menu {
+        display: block;
+    }
 }
+
+@media screen and (max-width: 550px) {
+    .gp_navbar-sign-small {
+        display: block;
+    }
+
+    .gp_navbar-sign {
+        display: none;
+    }
+
+    .gp_navbar {
+        padding: 2rem;
+    }
 }
